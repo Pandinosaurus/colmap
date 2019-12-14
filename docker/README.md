@@ -45,9 +45,7 @@ data set / imagery). Docker has a relatively small default memory setting
 workflows. From Docker desktop on Mac for example, just open the Docker GUI, go
 to the *Advanced* tab and increase via the slider:
 
-![docker-memory-settings.png][dockerParam]
-
-[dockerParam]: https://github.com/colmap/colmap/docker/docker-memory-settings.png "Recommend increasing memory to >4Gb"
+![](docker-memory-settings.png?raw=true)
 
 <a name="f1">1</a>: COLMAP needs NVIDA GPU compute hardware for dense reconstruction (as of 12/10/2019), and is optional for feature extraction and matching.
 
